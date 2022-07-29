@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header section Starts here */
+
+.header {
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 5px 0 5px;
+}
+
+.navlinks ul li a {
+    margin-right: 50px;
+    color: #f8ec80;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* header section ends here */
+
+
+/* home section starts here */
+
+.home {
+    background: url(../images/pre-background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.homecontent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.homecontent h2 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* home section ends here */
+
+
+/* Card section starts here */
+
+.cars {
+    background-color: #e3e3e3;
+    padding: 100px 0;
+}
+
+.cardcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.content img {
+    height: 100px;
+}
+
+.text {
+    padding: 30px 32px 10px 32px;
+    background-color: #fff;
+}
+
+.text h4 {
+    font-size: 15px;
+}
+
+.text p {
+    color: green;
+}
+
+/* Card section ends here */
+
+
+.sell {
+    padding: 100px 0;
+    background-color: #e3e3e3;
+}
+
+.selling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selling-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.sellcontent img {
+    height: 100px;
+}
+
+.sellcontent p {
+    padding: 0px 10px;
+}
+
+.sell-text {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.sell-text h6 {
+    position: relative;
+    left: 40px;
+}
+
+.sell-para {
+    position: relative;
+    left: -383px;
+    top: 50px;
+}
+
+.footer {
+    background: url(../images/footer.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    padding: 50px 0;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title h2 {
+    color: #fff;
+    font-size: 55px;
+}
+
+.footer-title p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.foot-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    color: #fff;
+}
+
+.footer-content i {
+    color: #fff;
+    font-size: 40px;
+    padding: 0px 10px;
+}
+
+.footer-content h6 {
+    line-height: 8px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head h4 {
+    font-size: 40px;
+    color: crimson;
+}
+
+.head .links a{
+    padding: 10px 12px;
+    border-radius:50%;
+    border: 2px solid grey;
+    color: grey;
+}
+
+.end-content {
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-content {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.lastcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

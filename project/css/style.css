@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.home-nav {
+    height: 20px;
+}
+
+.home-nav p {
+    font-size: 12px;
+}
+
+.home {
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.534)), url(../images/joey-banks-YApiWyp0lqo-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.home h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.home-title:before {
+    content: "";
+    background-color: silver;
+    height: 4px;
+    width: 180px;
+    position: relative;
+    top: 170px;
+    display: block;
+}
+
+.home-title:after {
+    content: "";
+    background-color: silver;
+    height: 4px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    display: block;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: goldenrod;
+    padding-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 14px;
+}
+
+.about-content .btn {
+    margin-top: 10px;
+    border: 1px solid goldenrod;
+    font-weight: 600;
+}
+
+.about-content .btn:hover {
+    background-color: goldenrod;
+    color: #fff;
+}
+
+.about-img img {
+    height: 620px;
+}
